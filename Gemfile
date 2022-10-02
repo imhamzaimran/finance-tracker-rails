@@ -31,6 +31,17 @@ gem 'bootsnap', '>= 1.4.4', require: false
 # for authentication
 gem 'devise', '~> 4.8', '>= 4.8.1'
 
+#bootstrap for devise views
+gem 'devise-bootstrap-views', '~> 1.1'
+
+#for stock data
+gem 'iex-ruby-client'
+
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.8'
+
+#for environment
+gem 'dotenv-rails', groups: [:development, :test]
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
